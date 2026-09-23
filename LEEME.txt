@@ -1,0 +1,33 @@
+PORTFOLIO – IVÁN GUERRERO
+=========================
+
+Estructura
+  index.html   → la web completa (textos, estilos y código en un solo archivo)
+  img/         → fotos de proyectos y retrato
+  cv/          → tu CV en PDF (lo descarga el botón "Descargar CV")
+  videos/      → vídeos de los proyectos y clips de vista previa (~190 MB)
+
+Cómo añadir tus vídeos
+  1. Abre index.html con un editor (VS Code, por ejemplo).
+  2. Busca "AQUÍ EDITAS TUS PROYECTOS Y VÍDEOS" (cerca del final).
+  3. En el campo "video" de cada proyecto pega el enlace de YouTube,
+     Vimeo, TikTok o Instagram, o la ruta de un MP4 (ej. "videos/piloto.mp4").
+  4. El campo "seccion" decide en qué bloque sale cada proyecto:
+     "metro" (reels verticales), "uni", "propio" o "umh".
+  5. Si un proyecto no tiene foto y el vídeo es de YouTube, la miniatura
+     se coge sola. Si no, pon una foto en img/ y escribe su ruta en "imagen".
+
+Añadir un proyecto nuevo
+  Copia un bloque { ... } dentro de PROYECTOS, pégalo debajo y cambia
+  los textos. La "categoria" crea automáticamente un botón de filtro.
+
+Probarla en tu ordenador
+  Descomprime la carpeta y abre index.html con doble clic.
+  (Los vídeos de YouTube necesitan que la web esté publicada para verse.)
+
+Publicar gratis
+  Netlify Drop (app.netlify.com/drop): arrastra esta carpeta y listo.
+  GitHub Pages: sube la carpeta a un repositorio y activa Pages.
+  Ningún vídeo pasa de 100 MB, así que GitHub los acepta.
+
+Busca "REVISAR" en index.html para ver los datos que conviene comprobar.
